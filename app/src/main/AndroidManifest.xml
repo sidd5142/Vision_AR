@@ -21,6 +21,9 @@
         android:theme="@style/Theme.NSUT"
         tools:targetApi="31">
         <activity
+            android:name=".MCQ"
+            android:exported="false" />
+        <activity
             android:name=".homepage"
             android:exported="false" />
         <activity

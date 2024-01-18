@@ -1,6 +1,7 @@
 package com.example.nsut
 
 import android.content.ActivityNotFoundException
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -10,6 +11,13 @@ class homepage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_homepage)
+
+        var qz = findViewById<Button>(R.id.quizzesbtn)
+
+        qz.setOnClickListener {
+            val intent = Intent(this@homepage, MCQ::class.java)
+            startActivity(intent)
+        }
 
         val vr = findViewById<Button>(R.id.arbtn)
 
