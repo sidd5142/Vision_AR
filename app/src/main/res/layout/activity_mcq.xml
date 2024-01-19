@@ -79,4 +79,31 @@
         android:backgroundTint="#d8644b"
         />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#d8644b"
+            android:text="Exit"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#477b72"
+            android:text="Submit"
+            android:layout_marginLeft="180dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 </LinearLayout>

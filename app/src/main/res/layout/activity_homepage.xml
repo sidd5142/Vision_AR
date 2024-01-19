@@ -136,7 +136,7 @@
             android:layout_height="wrap_content"
             android:text="Education"
             android:textSize="18dp"
-            android:layout_marginRight="28dp"
+            android:layout_marginRight="24dp"
             android:layout_marginLeft="25dp"
             />
         <TextView
@@ -144,14 +144,14 @@
             android:layout_height="wrap_content"
             android:text="Kidney"
             android:textSize="18dp"
-            android:layout_marginRight="38dp"
+            android:layout_marginRight="28dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Synthesis"
             android:textSize="18dp"
-            android:layout_marginRight="35dp"
+            android:layout_marginRight="30dp"
             />
         <TextView
             android:layout_width="wrap_content"
