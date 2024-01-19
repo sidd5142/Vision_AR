@@ -15,5 +15,19 @@ class MCQ : AppCompatActivity() {
         val btn4 = findViewById<Button>(R.id.q4)
 
 
+//        btn1.setOnClickListener(this)
+//        btn2.setOnClickListener(this)
+//        btn3.setOnClickListener(this)
+//        btn4.setOnClickListener(this)
+
     }
+
+//    @Override
+//    public fun onClick(View v) {
+//        switch(v.getId())
+//        {
+//            case R.id.q1 :
+//
+//        }
+
 }
