@@ -45,3 +45,44 @@ class ImageAdapter : ListAdapter<ImageItem, ImageAdapter.ViewHolder>(DiffCallbac
         holder.bindData(imageItem)
     }
 }
+//
+//package com.example.nsut.adapters
+//
+//import android.view.LayoutInflater
+//import android.view.ViewGroup
+//import androidx.recyclerview.widget.DiffUtil
+//import androidx.recyclerview.widget.ListAdapter
+//import androidx.recyclerview.widget.RecyclerView
+//import com.example.nsut.databinding.ItemImageBinding
+//import com.example.nsut.models.ImageItem
+//
+//class ImageAdapter : ListAdapter<ImageItem, ImageAdapter.ImageViewHolder>(DiffCallback()) {
+//
+//    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {
+//        val binding = ItemImageBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+//        return ImageViewHolder(binding)
+//    }
+//
+//    override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
+//        val currentItem = getItem(position)
+//        holder.bind(currentItem)
+//    }
+//
+//    class ImageViewHolder(private val binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root) {
+//
+//        fun bind(imageItem: ImageItem) {
+//            binding.imageView.setImageResource(imageItem.imageResourceId)
+//        }
+//    }
+//
+//    private class DiffCallback : DiffUtil.ItemCallback<ImageItem>() {
+//        override fun areItemsTheSame(oldItem: ImageItem, newItem: ImageItem): Boolean {
+//            return oldItem.id == newItem.id
+//        }
+//
+//        override fun areContentsTheSame(oldItem: ImageItem, newItem: ImageItem): Boolean {
+//            return oldItem == newItem
+//        }
+//    }
+//}
+//

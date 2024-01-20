@@ -26,6 +26,10 @@ android {
             )
         }
     }
+    buildFeatures {
+        dataBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -45,5 +49,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("androidx.databinding:databinding-runtime:4.1.3")
+//    kapt("com.android.databinding:compiler:4.1.3")
+//    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
 //    implementation("com.synnapps:carouselview:0.1.4")
 }

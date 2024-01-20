@@ -62,3 +62,45 @@ class Carousel : AppCompatActivity() {
 
     }
 }
+
+//package com.example.nsut.models
+//
+//import android.content.Intent
+//import android.os.Bundle
+//import android.widget.Button
+//import androidx.appcompat.app.AppCompatActivity
+//import androidx.recyclerview.widget.RecyclerView
+//import com.example.nsut.R
+//import com.example.nsut.SignIn
+//import com.example.nsut.adapters.ImageAdapter
+//import java.util.UUID
+//
+//class Carousel : AppCompatActivity() {
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_carousel)
+//
+//        val btn = findViewById<Button>(R.id.btn1)
+//
+//        btn.setOnClickListener {
+//            val intent = Intent(this@Carousel, SignIn::class.java)
+//            startActivity(intent)
+//        }
+//
+//        val imageRV = findViewById<RecyclerView>(R.id.imageRV)
+//
+//        val imageList = arrayListOf(
+//            ImageItem(UUID.randomUUID().toString(), R.drawable.App1),
+//            ImageItem(UUID.randomUUID().toString(), R.drawable.App2),
+//            ImageItem(UUID.randomUUID().toString(), R.drawable.App3),
+//            ImageItem(UUID.randomUUID().toString(), R.drawable.App4),
+////            ImageItem(UUID.randomUUID().toString(), R.drawable.app5),
+////            ImageItem(UUID.randomUUID().toString(), R.drawable.app6)
+//        )
+//
+//        val imageAdapter = ImageAdapter()
+//        imageRV.adapter = imageAdapter
+//        imageAdapter.submitList(imageList)
+//    }
+//}
