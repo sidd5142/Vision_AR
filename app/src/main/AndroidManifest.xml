@@ -20,7 +20,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSUT"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation" />
         <activity
             android:name=".models.Carousel"
             android:exported="false" />

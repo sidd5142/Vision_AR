@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="#fbf2fc"
     tools:context=".homepage">
 
 
@@ -15,14 +15,44 @@
         android:background="@drawable/homelayout"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hii Admin!"
-            android:layout_margin="25dp"
-            android:textSize="28dp"
-            android:textColor="@color/white"
-            />
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/subscribed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1240 points"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginRight="50dp"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="right"/>
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LogOut"
+                android:layout_marginLeft="120dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:backgroundTint="#d8644b"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hii "
+                android:layout_marginBottom="10dp"
+                android:textSize="28dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                />
 
         <com.google.android.material.textfield.TextInputLayout
 

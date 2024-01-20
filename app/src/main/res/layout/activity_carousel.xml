@@ -7,27 +7,51 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
+
+    <!--    <ImageView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="165dp"-->
+<!--        android:layout_marginBottom="586dp"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:src="@drawable/vision" />-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EduQuestAR"
-        android:textSize="50dp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/white"
-        android:gravity="center"
+        android:layout_above="@+id/imageRV"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="20dp"
-        />
-
+        android:layout_marginBottom="128dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="EduQuestAR"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/imageRV"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        app:layoutManager="com.google.android.material.carousel.CarouselLayoutManager"
         android:layout_centerInParent="true"
-        />
+        app:layoutManager="com.google.android.material.carousel.CarouselLayoutManager" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="141dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Enhance your learning experience with interactive tools and gamified approaches"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btn1"
