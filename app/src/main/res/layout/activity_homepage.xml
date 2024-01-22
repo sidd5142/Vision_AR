@@ -16,32 +16,31 @@
         android:orientation="vertical"
         >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <Button
-                android:id="@+id/subscribed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1240 points"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_marginRight="50dp"
-                android:backgroundTint="@color/white"
-                android:layout_gravity="right"/>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--            <Button-->
+<!--                android:id="@+id/subscribed"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="1240 points"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:layout_marginRight="50dp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:layout_gravity="right"/>-->
             <Button
                 android:id="@+id/logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="LogOut"
-                android:layout_marginLeft="120dp"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 android:backgroundTint="#d8644b"
                 android:layout_gravity="right"/>
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
             <TextView
                 android:id="@+id/username"
@@ -265,7 +264,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/img_5"
+            android:src="@drawable/vsisonicon"
             android:layout_gravity="center"
             >
         </ImageView>

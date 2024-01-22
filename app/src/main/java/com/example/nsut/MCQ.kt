@@ -25,11 +25,9 @@ class MCQ : AppCompatActivity() {
 
         btn1.setOnClickListener {
 
-            val option = arrayOf("TCL", "DDL", "DCL", "DML")
+            val option = arrayOf("Breathing", "Photosynthesis", "Sleeping", "Jumping")
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("ROLLBACK in a database is ________ statement ?")
-            //builder.setMessage("ROLLBACK in a database is ________ statement ?")
-
+            builder.setTitle("What is the name of the process by which plants make their own food?")
 
             builder.setSingleChoiceItems(option,0, DialogInterface.OnClickListener { dialog, which ->
                 Toast.makeText(this, "You clicked on ${option[which]}", Toast.LENGTH_SHORT).show()
@@ -46,11 +44,9 @@ class MCQ : AppCompatActivity() {
 
         btn2.setOnClickListener {
 
-            val options = arrayOf("objects", "filters", "database", "All of the above")
+            val options = arrayOf("Oxygen", "Nitrogen", "Carbon Dioxide", "All of the above")
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("Unlike filters queries can be saved as in a database")
-            //builder.setMessage("ROLLBACK in a database is ________ statement ?")
-
+            builder.setTitle("What do plants take from the air to make their food?")
 
             builder.setSingleChoiceItems(options,0, DialogInterface.OnClickListener { dialog, which ->
                 Toast.makeText(this, "You clicked on ${options[which]}", Toast.LENGTH_SHORT).show()
@@ -67,10 +63,9 @@ class MCQ : AppCompatActivity() {
 
         btn3.setOnClickListener {
 
-            val option = arrayOf("TCL", "DDL", "DCL", "DML")
+            val option = arrayOf("Root", "Leaves", "Stem", "Flowers")
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("ROLLBACK in a database is ________ statement ?")
-            //builder.setMessage("ROLLBACK in a database is ________ statement ?")
+            builder.setTitle("Which part of the plant takes in sunlight for making food?")
 
 
             builder.setSingleChoiceItems(option,0, DialogInterface.OnClickListener { dialog, which ->
@@ -88,10 +83,9 @@ class MCQ : AppCompatActivity() {
 
         btn4.setOnClickListener {
 
-            val option1 = arrayOf("updating", "upgrading", "deleting", "info")
+            val option1 = arrayOf("Red", "Blue", "Green", "Yellow")
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("Periodically adding, changing and deleting file records is called file ?")
-            //builder.setMessage("ROLLBACK in a database is ________ statement ?")
+            builder.setTitle("What is the main color of the leaves that helps plants make food?")
 
 
             builder.setSingleChoiceItems(option1,0, DialogInterface.OnClickListener { dialog, which ->

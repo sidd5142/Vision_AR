@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320899831381",
+    "project_id": "eduquestar-25cd7",
+    "storage_bucket": "eduquestar-25cd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320899831381:android:2c340b5209ddc2934166dc",
+        "android_client_info": {
+          "package_name": "com.example.nsut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvbMYz3GM1ee91ovdrIVcfbbvTZRoexpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
